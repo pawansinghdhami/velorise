@@ -1,0 +1,25 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="cIUqSFhCDA0s-M6GlI22">
+    <mxGraphModel dx="1542" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CONTROLLER" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="REPOSITORY" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DATABASE" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-5" parent="1" style="text;whiteSpace=wrap;html=1;" value="Authentication Component Diagram" vertex="1">
+          <mxGeometry height="40" width="220" x="250" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
