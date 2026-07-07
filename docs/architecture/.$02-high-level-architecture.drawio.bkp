@@ -1,0 +1,64 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="vyg7p6xIUN-LAraiFtok">
+    <mxGraphModel dx="1542" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CLIENT" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-4" edge="1" parent="1" source="PIcxPlQS8WRH3u2C4ljA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PIcxPlQS8WRH3u2C4ljA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="WEB/MOBILE &lt;br&gt;ADMIN" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-10" edge="1" parent="1" source="PIcxPlQS8WRH3u2C4ljA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PIcxPlQS8WRH3u2C4ljA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-11" edge="1" parent="1" source="PIcxPlQS8WRH3u2C4ljA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PIcxPlQS8WRH3u2C4ljA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-12" edge="1" parent="1" source="PIcxPlQS8WRH3u2C4ljA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PIcxPlQS8WRH3u2C4ljA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-13" edge="1" parent="1" source="PIcxPlQS8WRH3u2C4ljA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PIcxPlQS8WRH3u2C4ljA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-14" edge="1" parent="1" source="PIcxPlQS8WRH3u2C4ljA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PIcxPlQS8WRH3u2C4ljA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API GATEWAY" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="VEHICLE SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BOOKING SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AUTH SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PAYMENT SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="NOTIFICATION&lt;br&gt;SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DATA BASE&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="REDIS" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="PIcxPlQS8WRH3u2C4ljA-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="KAFKA" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="750" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

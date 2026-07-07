@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changes/001-create-user-table.yml
+  - include:
+      file: db/changelog/changes/002-create-update-trigger-function.yml
+  - include:
+      file: db/changelog/changes/003-create-app-user-trigger.yml

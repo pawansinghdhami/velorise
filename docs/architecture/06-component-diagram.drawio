@@ -1,0 +1,34 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="cIUqSFhCDA0s-M6GlI22">
+    <mxGraphModel dx="1542" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-6" edge="1" parent="1" source="fo4VfoZTlUnUQnu8Jpry-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="fo4VfoZTlUnUQnu8Jpry-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CONTROLLER" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-7" edge="1" parent="1" source="fo4VfoZTlUnUQnu8Jpry-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="fo4VfoZTlUnUQnu8Jpry-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-8" edge="1" parent="1" source="fo4VfoZTlUnUQnu8Jpry-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="fo4VfoZTlUnUQnu8Jpry-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="REPOSITORY" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DATABASE" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="fo4VfoZTlUnUQnu8Jpry-5" parent="1" style="text;whiteSpace=wrap;html=1;" value="Authentication Component Diagram" vertex="1">
+          <mxGeometry height="40" width="220" x="250" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

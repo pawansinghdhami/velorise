@@ -1,0 +1,31 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="DCBh-JvW95Z6_wZLsl4o">
+    <mxGraphModel dx="1542" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="USER" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="POST / LOGIN" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API GATEWAY" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AUTH SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="POSTGRE SQL" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="JWT" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API GATEWAY" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="1030" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

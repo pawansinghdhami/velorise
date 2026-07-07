@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - changeSet:
+      id: 004-create-app-user-trigger
+      author: pawan
+
+      changes:
+        - sql:
+            sql: |
+              CREATE TRIGGER trg_app_user_updated_dtm
+              BEFORE UPDATE ON app_user
+              FOR EACH ROW
+              EXECUTE FUNCTION update_updated_dtm();

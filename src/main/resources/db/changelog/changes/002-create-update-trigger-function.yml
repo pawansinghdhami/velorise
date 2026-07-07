@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - changeSet:
+      id: 003-create-update-trigger-function
+      author: pawan
+
+      changes:
+        - sql:
+            splitStatements: false
+            stripComments: true
+            sql: |
+              CREATE OR REPLACE FUNCTION update_updated_dtm()
+              RETURNS TRIGGER
+              AS $$
+              BEGIN
+                  NEW.updated_dtm := CURRENT_TIMESTAMP;
+                  RETURN NEW;
+              END;
+              $$ LANGUAGE plpgsql;

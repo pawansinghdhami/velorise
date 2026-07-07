@@ -1,0 +1,64 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="NhSntiXQWm5M48MT8VnB">
+    <mxGraphModel dx="1542" dy="2014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q949tuTqfpLJafkrb17p-11" edge="1" parent="1" source="Q949tuTqfpLJafkrb17p-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Q949tuTqfpLJafkrb17p-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PHASE 1&lt;br&gt;DESIGN" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-12" edge="1" parent="1" source="Q949tuTqfpLJafkrb17p-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Q949tuTqfpLJafkrb17p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PHASE 2&lt;br&gt;AUTHENTICATION SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-13" edge="1" parent="1" source="Q949tuTqfpLJafkrb17p-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Q949tuTqfpLJafkrb17p-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PHASE 3&lt;br&gt;VEHICLE SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-14" edge="1" parent="1" source="Q949tuTqfpLJafkrb17p-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Q949tuTqfpLJafkrb17p-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PHASE 4&lt;br&gt;BOOKING SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-15" edge="1" parent="1" source="Q949tuTqfpLJafkrb17p-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q949tuTqfpLJafkrb17p-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PHASE 5&lt;br&gt;PAYMENT SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-16" edge="1" parent="1" source="Q949tuTqfpLJafkrb17p-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Q949tuTqfpLJafkrb17p-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PHASE 6&lt;br&gt;NOTIFICATION SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-17" edge="1" parent="1" source="Q949tuTqfpLJafkrb17p-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Q949tuTqfpLJafkrb17p-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PHASE 7&lt;br&gt;DOCKER" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-18" edge="1" parent="1" source="Q949tuTqfpLJafkrb17p-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Q949tuTqfpLJafkrb17p-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PHASE 8&lt;br&gt;KUBERNETES" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PHASE 9&lt;br&gt;AWS DEPLOYMENT" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="Q949tuTqfpLJafkrb17p-10" parent="1" style="text;whiteSpace=wrap;html=1;" value="Project Roadmap Diagram" vertex="1">
+          <mxGeometry height="40" width="170" x="260" y="-50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

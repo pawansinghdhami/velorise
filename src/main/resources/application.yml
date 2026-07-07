@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: velorise
+  datasource:
+    url: jdbc:postgresql://localhost:5432/velorise
+    username: velorise
+    password: velorise
+    driver-class-name: org.postgresql.Driver
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        jpa:
+          timezone: Asia/Kolkata
+        format_sql: true
+  liquibase:
+    enabled: true
+    change-log: classpath:db/changelog/db.changelog-master.yml
+server:
+    port: 8081
+
+jwt:
+  secret: "5v6RrN6qN4P3eY9tL2mJ8wQ1zX7cA4kH9nB5uF0sD3gL6pV2xC9"
+  expiration: 3600000
+
+
+

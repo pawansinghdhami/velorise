@@ -1,0 +1,60 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="DCBh-JvW95Z6_wZLsl4o">
+    <mxGraphModel dx="1542" dy="2014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-8" edge="1" parent="1" source="-cPaPhR3XtYYp63MSsMx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="-cPaPhR3XtYYp63MSsMx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="USER" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-740" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-9" edge="1" parent="1" source="-cPaPhR3XtYYp63MSsMx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="-cPaPhR3XtYYp63MSsMx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="POST / LOGIN" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-620" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-10" edge="1" parent="1" source="-cPaPhR3XtYYp63MSsMx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="-cPaPhR3XtYYp63MSsMx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API GATEWAY" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-510" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-11" edge="1" parent="1" source="-cPaPhR3XtYYp63MSsMx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="-cPaPhR3XtYYp63MSsMx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AUTH SERVICE" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-400" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-12" edge="1" parent="1" source="-cPaPhR3XtYYp63MSsMx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="-cPaPhR3XtYYp63MSsMx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="POSTGRE SQL" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-300" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-13" edge="1" parent="1" source="-cPaPhR3XtYYp63MSsMx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-cPaPhR3XtYYp63MSsMx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="JWT" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-200" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-15" edge="1" parent="1" source="-cPaPhR3XtYYp63MSsMx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="-cPaPhR3XtYYp63MSsMx-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="-70" />
+              <mxPoint x="470" y="-710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API GATEWAY" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="-cPaPhR3XtYYp63MSsMx-14" parent="1" style="text;whiteSpace=wrap;html=1;" value="Authentication Sequence Diagram" vertex="1">
+          <mxGeometry height="30" width="240" x="160" y="-840" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
