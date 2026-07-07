@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: 003-create-update-trigger-function
+      id: 002-create-update-trigger-function
       author: pawan
 
       changes:

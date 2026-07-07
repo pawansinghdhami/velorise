@@ -1,6 +1,6 @@
-package com.mobility.platform.authenticationservice.security.jwt;
+package com.mobility.platform.authenticationservice.security.service;
 
-import com.mobility.platform.authenticationservice.config.JwtProperties;
+import com.mobility.platform.authenticationservice.security.config.JwtProperties;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import lombok.RequiredArgsConstructor;
@@ -23,7 +23,7 @@ public class JwtServiceImpl implements JwtService {
     @Override
     public String generateToken(UserDetails userDetails) {
         return Jwts.builder()
-                .subject(userDetails.getUsername())
+                .subject(userDetails.getUsername())// here value we are passing is user email
                 .issuedAt(new java.util.Date())
                 .expiration(new java.util.Date(System.currentTimeMillis() + jwtProperties.getExpiration()))
                 .signWith(getSigningKey())

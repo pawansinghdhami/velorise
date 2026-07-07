@@ -1,10 +1,11 @@
-package com.mobility.platform.authenticationservice.controller;
+package com.mobility.platform.authenticationservice.controller.auth;
 
 import com.mobility.platform.authenticationservice.dto.request.LoginRequest;
 import com.mobility.platform.authenticationservice.dto.request.SignupRequest;
 import com.mobility.platform.authenticationservice.dto.response.LoginResponse;
 import com.mobility.platform.authenticationservice.entity.AppUser;
-import com.mobility.platform.authenticationservice.service.impl.AuthService;
+import com.mobility.platform.authenticationservice.security.service.AuthService;
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,7 +20,7 @@ public class AuthController {
     private final AuthService  authService;
 
     @PostMapping("/signup")
-    public AppUser signup(@RequestBody SignupRequest request) {
+    public AppUser signup(@Valid @RequestBody SignupRequest request) {
        return authService.signup(request);
     }
 

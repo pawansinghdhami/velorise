@@ -1,19 +1,20 @@
-package com.mobility.platform.authenticationservice.service.impl;
+package com.mobility.platform.authenticationservice.security.service;
 
-import com.mobility.platform.authenticationservice.config.JwtProperties;
+import com.mobility.platform.authenticationservice.exception.DuplicateEmailException;
+import com.mobility.platform.authenticationservice.exception.UserNotFoundException;
+import com.mobility.platform.authenticationservice.security.config.JwtProperties;
 import com.mobility.platform.authenticationservice.dto.request.LoginRequest;
 import com.mobility.platform.authenticationservice.dto.request.SignupRequest;
 import com.mobility.platform.authenticationservice.dto.response.LoginResponse;
 import com.mobility.platform.authenticationservice.entity.AppUser;
-import com.mobility.platform.authenticationservice.repository.UserRepository;
-import com.mobility.platform.authenticationservice.security.jwt.JwtService;
+import com.mobility.platform.authenticationservice.repository.AppUserRepository;
+import com.mobility.platform.authenticationservice.security.userdetails.AppUserDetails;
+import com.mobility.platform.util.Role;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +23,7 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor
 public class AuthServiceImpl implements AuthService{
 
-    private final UserRepository userRepository;
+    private final AppUserRepository appUserRepository;
     private final PasswordEncoder passwordEncoder;
     private final JwtService jwtService;
     private final AuthenticationManager authenticationManager;
@@ -30,20 +31,20 @@ public class AuthServiceImpl implements AuthService{
 
     @Override
     public AppUser signup(SignupRequest signupRequest) {
-        if(userRepository.findByEmail(signupRequest.getEmail()).isPresent()){
-            throw new RuntimeException("Email already in use");
+        if(appUserRepository.findByEmail(signupRequest.getEmail()).isPresent()){
+            throw new DuplicateEmailException("Email already registered");
         }
         AppUser appUser = new AppUser();
         appUser.setEmail(signupRequest.getEmail());
         appUser.setFirstName(signupRequest.getFirstName());
         appUser.setLastName(signupRequest.getLastName());
         appUser.setPassword(passwordEncoder.encode(signupRequest.getPassword()));
-        appUser.setRole(signupRequest.getRole() != null ? signupRequest.getRole() : "USER");
+        appUser.setRole(Role.USER);
         appUser.setStatus("ACTIVE");
         appUser.setPhone(signupRequest.getPhone());
-        appUser.setCreatedBy(signupRequest.getFirstName());
-        appUser.setUpdatedBy(signupRequest.getFirstName());
-        return userRepository.save(appUser);
+        appUser.setCreatedBy("SYSTEM");
+        appUser.setUpdatedBy("SYSTEM");
+        return appUserRepository.save(appUser);
     }
 
     @Override
@@ -66,7 +67,7 @@ public class AuthServiceImpl implements AuthService{
 
     @Override
     public AppUser findByEmail(String email) {
-       return userRepository.findByEmail(email)
-                .orElseThrow(() -> new RuntimeException("User not found"));
+       return appUserRepository.findByEmail(email)
+                .orElseThrow(() -> new UserNotFoundException("User not found"));
     }
 }

@@ -1,4 +1,4 @@
-package com.mobility.platform.authenticationservice.config;
+package com.mobility.platform.authenticationservice.security.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

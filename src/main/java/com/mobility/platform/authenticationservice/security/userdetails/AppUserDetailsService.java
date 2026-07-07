@@ -1,8 +1,7 @@
-package com.mobility.platform.authenticationservice.security.filter;
+package com.mobility.platform.authenticationservice.security.userdetails;
 
 import com.mobility.platform.authenticationservice.entity.AppUser;
-import com.mobility.platform.authenticationservice.repository.UserRepository;
-import com.mobility.platform.authenticationservice.service.impl.AppUserDetails;
+import com.mobility.platform.authenticationservice.repository.AppUserRepository;
 import lombok.RequiredArgsConstructor;
 import org.jspecify.annotations.NonNull;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -14,12 +13,12 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class AppUserDetailsService implements UserDetailsService {
 
-    private final UserRepository userRepository;
+    private final AppUserRepository appUserRepository;
 
     @Override
     public UserDetails loadUserByUsername(@NonNull String email) throws UsernameNotFoundException {
         // Implementation for loading user by email
-        AppUser appUser = userRepository.findByEmail(email)
+        AppUser appUser = appUserRepository.findByEmail(email)
                 .orElseThrow(() -> new UsernameNotFoundException("User not found with email: " + email));
         return new AppUserDetails(appUser);
     }

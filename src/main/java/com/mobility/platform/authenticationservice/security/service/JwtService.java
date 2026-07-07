@@ -1,4 +1,4 @@
-package com.mobility.platform.authenticationservice.security.jwt;
+package com.mobility.platform.authenticationservice.security.service;
 
 import org.springframework.security.core.userdetails.UserDetails;
 

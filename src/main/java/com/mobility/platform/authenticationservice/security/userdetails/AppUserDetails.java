@@ -1,4 +1,4 @@
-package com.mobility.platform.authenticationservice.service.impl;
+package com.mobility.platform.authenticationservice.security.userdetails;
 
 import com.mobility.platform.authenticationservice.entity.AppUser;
 import lombok.AllArgsConstructor;

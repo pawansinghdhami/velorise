@@ -1,4 +1,4 @@
-package com.mobility.platform.authenticationservice.service.impl;
+package com.mobility.platform.authenticationservice.security.service;
 
 import com.mobility.platform.authenticationservice.dto.request.LoginRequest;
 import com.mobility.platform.authenticationservice.dto.request.SignupRequest;
