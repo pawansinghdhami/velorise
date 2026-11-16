@@ -1,15 +1,25 @@
 package com.mobility.platform.authenticationservice.entity;
 
-
-import jakarta.persistence.*;
+import com.mobility.platform.util.Role;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Column;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Transient;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.time.LocalDateTime;
 
+@EqualsAndHashCode(callSuper = true)
 @Entity
 @Table(name = "app_user")
 @Data
-public class AppUser {
+public class AppUser extends AuditableEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,17 +36,8 @@ public class AppUser {
     @Column(name = "phone", nullable = true)
     private String phone;
     @Column(name = "role", nullable = false)
-    private String role;
+    @Enumerated(EnumType.STRING)
+    private Role role;
     @Column(name = "status", nullable = false)
     private String status;
-    @Column(name = "created_dtm", nullable = false)
-    @Transient
-    private LocalDateTime createdDtm;
-    @Column(name = "updated_dtm", nullable = false)
-    @Transient
-    private LocalDateTime updatedDtm;
-    @Column(name = "created_by", nullable = true)
-    private String createdBy;
-    @Column(name = "updated_by", nullable = true)
-    private String updatedBy;
 }

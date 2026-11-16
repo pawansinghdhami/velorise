@@ -1,6 +1,6 @@
 package com.mobility.platform.authenticationservice.security.filter;
 
-import com.mobility.platform.authenticationservice.security.jwt.JwtService;
+import com.mobility.platform.authenticationservice.security.service.JwtService;
 import com.mobility.platform.authenticationservice.security.jwt.SecurityConstants;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -29,7 +29,6 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                                     @NonNull HttpServletResponse response,
                                     @NonNull FilterChain filterChain)
             throws ServletException, IOException {
-
         String header = request.getHeader(SecurityConstants.HEADER);
         if (header == null || !header.startsWith(SecurityConstants.TOKEN_PREFIX)) {
             filterChain.doFilter(request, response);
